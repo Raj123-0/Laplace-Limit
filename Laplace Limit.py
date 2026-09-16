@@ -1,6 +1,9 @@
-import sys
+"""Module for mathematical computation and analysis."""
+
 import argparse
+
 import mpmath
+
 
 def compute_laplace_limit(target_digits: int) -> mpmath.mpf:
     """
@@ -51,7 +54,11 @@ def compute_laplace_limit(target_digits: int) -> mpmath.mpf:
     
     return x
 
+
 def main():
+    """Entry point — parse arguments and run the main computation.
+    
+    """
     parser = argparse.ArgumentParser(description="Calculate the Laplace Limit to N digits.")
     parser.add_argument("-n", "--digits", type=int, default=1000000,
                         help="Number of digits to compute (default: 1000)")
