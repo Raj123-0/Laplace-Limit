@@ -1,3 +1,6 @@
+[![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
+[![Python 3.8+](https://img.shields.io/badge/python-3.8+-blue.svg)](https://www.python.org/downloads/)
+
 ===============================================================================
 PROJECT: Laplace Limit Computation Engine
 ===============================================================================
@@ -14,3 +17,9 @@ ALGORITHM & IMPLEMENTATION:
 - Dynamic Precision Doubling: Starts at low precision and doubles the working 
   precision at each iteration to match the quadratic convergence rate of 
   Newton's method, minimizing CPU time spent on initial approximations.
+
+## Usage
+
+```bash
+python "Laplace Limit.py" --help
+```
